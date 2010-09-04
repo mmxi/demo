@@ -1,0 +1,132 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: log4cplus_dll - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPD8.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "..\include" /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "LOG4CPLUS_BUILD_DLL" /Fp"Debug/log4cplus_dll.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\src\project\git\demo\log4cplus\src\appender.cxx"
+"E:\src\project\git\demo\log4cplus\src\appenderattachableimpl.cxx"
+"E:\src\project\git\demo\log4cplus\src\configurator.cxx"
+"E:\src\project\git\demo\log4cplus\src\consoleappender.cxx"
+"E:\src\project\git\demo\log4cplus\src\factory.cxx"
+"E:\src\project\git\demo\log4cplus\src\fileappender.cxx"
+"E:\src\project\git\demo\log4cplus\src\filter.cxx"
+"E:\src\project\git\demo\log4cplus\src\global-init.cxx"
+"E:\src\project\git\demo\log4cplus\src\hierarchy.cxx"
+"E:\src\project\git\demo\log4cplus\src\hierarchylocker.cxx"
+"E:\src\project\git\demo\log4cplus\src\layout.cxx"
+"E:\src\project\git\demo\log4cplus\src\logger.cxx"
+"E:\src\project\git\demo\log4cplus\src\loggerimpl.cxx"
+"E:\src\project\git\demo\log4cplus\src\loggingevent.cxx"
+"E:\src\project\git\demo\log4cplus\src\loggingserver.cxx"
+"E:\src\project\git\demo\log4cplus\src\loglevel.cxx"
+"E:\src\project\git\demo\log4cplus\src\loglog.cxx"
+"E:\src\project\git\demo\log4cplus\src\logloguser.cxx"
+"E:\src\project\git\demo\log4cplus\src\ndc.cxx"
+"E:\src\project\git\demo\log4cplus\src\nteventlogappender.cxx"
+"E:\src\project\git\demo\log4cplus\src\nullappender.cxx"
+"E:\src\project\git\demo\log4cplus\src\objectregistry.cxx"
+"E:\src\project\git\demo\log4cplus\src\patternlayout.cxx"
+"E:\src\project\git\demo\log4cplus\src\pointer.cxx"
+"E:\src\project\git\demo\log4cplus\src\property.cxx"
+"E:\src\project\git\demo\log4cplus\src\rootlogger.cxx"
+"E:\src\project\git\demo\log4cplus\src\sleep.cxx"
+"E:\src\project\git\demo\log4cplus\src\socket-win32.cxx"
+"E:\src\project\git\demo\log4cplus\src\socket.cxx"
+"E:\src\project\git\demo\log4cplus\src\socketappender.cxx"
+"E:\src\project\git\demo\log4cplus\src\socketbuffer.cxx"
+"E:\src\project\git\demo\log4cplus\src\stringhelper.cxx"
+"E:\src\project\git\demo\log4cplus\src\threads.cxx"
+"E:\src\project\git\demo\log4cplus\src\timehelper.cxx"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPD8.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPD9.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib ws2_32.lib /nologo /dll /incremental:yes /pdb:"Debug/log4cplusd.pdb" /debug /machine:I386 /out:"Debug/log4cplusd.dll" /implib:"Debug/log4cplusd.lib" /pdbtype:sept 
+.\Debug\appender.obj
+.\Debug\appenderattachableimpl.obj
+.\Debug\configurator.obj
+.\Debug\consoleappender.obj
+.\Debug\factory.obj
+.\Debug\fileappender.obj
+.\Debug\filter.obj
+".\Debug\global-init.obj"
+.\Debug\hierarchy.obj
+.\Debug\hierarchylocker.obj
+.\Debug\layout.obj
+.\Debug\logger.obj
+.\Debug\loggerimpl.obj
+.\Debug\loggingevent.obj
+.\Debug\loggingserver.obj
+.\Debug\loglevel.obj
+.\Debug\loglog.obj
+.\Debug\logloguser.obj
+.\Debug\ndc.obj
+.\Debug\nteventlogappender.obj
+.\Debug\nullappender.obj
+.\Debug\objectregistry.obj
+.\Debug\patternlayout.obj
+.\Debug\pointer.obj
+.\Debug\property.obj
+.\Debug\rootlogger.obj
+.\Debug\sleep.obj
+".\Debug\socket-win32.obj"
+.\Debug\socket.obj
+.\Debug\socketappender.obj
+.\Debug\socketbuffer.obj
+.\Debug\stringhelper.obj
+.\Debug\threads.obj
+.\Debug\timehelper.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPD9.tmp"
+<h3>Output Window</h3>
+Compiling...
+appender.cxx
+appenderattachableimpl.cxx
+configurator.cxx
+consoleappender.cxx
+factory.cxx
+fileappender.cxx
+filter.cxx
+global-init.cxx
+hierarchy.cxx
+hierarchylocker.cxx
+layout.cxx
+logger.cxx
+loggerimpl.cxx
+loggingevent.cxx
+loggingserver.cxx
+loglevel.cxx
+loglog.cxx
+logloguser.cxx
+ndc.cxx
+nteventlogappender.cxx
+nullappender.cxx
+objectregistry.cxx
+patternlayout.cxx
+pointer.cxx
+property.cxx
+rootlogger.cxx
+sleep.cxx
+socket-win32.cxx
+socket.cxx
+socketappender.cxx
+socketbuffer.cxx
+stringhelper.cxx
+threads.cxx
+timehelper.cxx
+Linking...
+   Creating library Debug/log4cplusd.lib and object Debug/log4cplusd.exp
+
+
+
+<h3>Results</h3>
+log4cplusd.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
